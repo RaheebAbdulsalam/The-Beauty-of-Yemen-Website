@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+/*The Whole contact form*/
+.wrapper{
+  
+ padding-left:20%;
+ padding-top: 7%;
+ padding-bottom: 10%;
+ background-color: rgb(243, 79, 79);
+}
+
+/*The Heading of the Contact form*/
+.wrapper h2{
+  padding:10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: black;
+  font-family: algerian;
+  font-size: 22pt;
+  
+}
+
+/*Space between each input field*/
+.wrapper .input_field{
+  margin-bottom: 10px;
+  
+}
+
+/*The input field area */
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 4px solid maroon;
+  width:70%;
+  padding: 10px;
+  
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+  
+}
+
+/*The submit button*/
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 70%;
+  background:black;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  
+  
+}
+
+/*The Error message*/
+#error_message{
+  margin-bottom: 20px;
+  background: maroon;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  width:70%;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}

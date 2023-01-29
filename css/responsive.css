@@ -1,0 +1,284 @@
+
+@media (max-width:991px){
+	/* =======================Header Area*========================================= */
+	.header_area + section, .header_area + row, .header_area + div {
+		margin-top: 117px;
+	}
+    .header_top .nav{
+        padding: 0px;
+    }
+    .header_area .navbar .nav .nav-item .nav-link{
+        line-height: 40px;
+        margin-right: 0px;
+        display: block;
+		border-bottom: 1px solid #ededed33;
+		border-radius: 0px;
+    }
+	.header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+		line-height: 40px;
+	}
+    .header_area .navbar .search{
+        margin-left: 0px;
+    }
+	.header_area .navbar-collapse{
+		max-height: 340px;
+		overflow-y: scroll;
+	}
+	.header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
+		padding: 0px 15px;
+	}
+	.header_area .navbar .nav .nav-item {
+		margin-right: 0px;
+	}
+	.header_area + section, .header_area + row, .header_area + div {
+		margin-top: 0px;
+	}
+
+
+	/*=====The bacground of the navigation bar====*/
+	.header_area .navbar {
+		background: #000;
+	}
+	/*=====Responsive Navigation Bar=====*/
+    .navbar-toggler {
+        border: none;
+        border-radius: 0px;
+        padding: 0px;
+        cursor: pointer;
+        margin-top: 27px;
+        margin-bottom: 23px;
+	}
+    .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
+		opacity: 1;
+	}
+	.navbar-toggler[aria-expanded="true"] span:nth-child(2) {
+		opacity: 0;
+	}
+	.navbar-toggler[aria-expanded="true"] span:first-child {
+		transform: rotate(-45deg);
+		position: relative;
+		top: 7.5px;
+	}
+	.navbar-toggler[aria-expanded="true"] span:last-child {
+		transform: rotate(45deg);
+		bottom: 6px;
+		position: relative;
+	}
+	.navbar-toggler span{
+		display: block;
+		width: 25px;
+		height: 3px;
+		background: #fff;
+		margin: auto;
+		margin-bottom: 4px;
+		transition: all 400ms linear;
+		cursor: pointer;
+	}
+    .navbar .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .nav{
+        padding: 0px 0px;
+    }
+	/* ==================End of Header Area======================= */
+	
+	
+	/*=============Banner Area=============*/
+@media (max-width:767px){
+	.home_banner_area {
+		min-height: 570px;
+		margin-bottom: 0px;
+	}
+	.home_banner_area .banner_inner {
+		min-height: 500px;
+	}
+	.home_banner_area .box_1620 {
+		min-height: 500px;
+	}
+	.home_banner_area .banner_inner .banner_content {
+		margin-top: 0px;
+	}
+	
+	.home_banner_area .box_1620 {
+		bottom: -70px;
+		border-radius: 0px;
+	}
+	@media (max-width:1300px){
+		.testimonials_area .owl-prev, .testimonials_area .owl-next {
+			right: auto;
+			left: 50%;
+			transform: translateX(-50%);
+			bottom: 25px;
+			top: auto;
+		}
+}}}
+/* ============End pf Banner Area====================== */
+
+/* ===============Footer Area ========================= */
+.footer-area .col-sm-6{
+	margin-bottom: 30px;
+}
+.footer_area .f_widget{
+	margin-bottom: 30px;
+}
+.footer_area .footer_inner{
+	margin-bottom: -30px;
+}
+/* ============End Footer Area====================== */
+
+/*--------------------------------------------------------------------------------------------------------*/
+*,
+::after,
+::before {
+    box-sizing: border-box
+}
+/*home page and footer colomn*/
+.col-lg-2,
+.col-lg-5,
+.col-lg-6,
+.col-md
+ {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+@media (min-width:576px) {
+    .col-sm {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%
+    }
+  
+    /*for the footer to be in order*/
+    .col-lg-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%
+    }
+    
+    .col-lg-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%
+    }
+    /*home page main body*/
+    .col-lg-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+  
+    /********nav bar for mobile/************/
+    .order-xl-first {
+        -ms-flex-order: -1;
+        order: -1
+    }
+    .order-xl-last {
+        -ms-flex-order: 13;
+        order: 13
+    }
+}
+/******************dropdown for the menu on mobile*/
+
+.collapse:not(.show) {
+    display: none
+}
+
+/****************************Navigation Bar***************************/
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+.navbar>.container,
+.navbar>.container-fluid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+/*Nav bar for mobile phones*/
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%
+}
+
+@media (max-width:991.98px) {
+    .navbar-expand-lg>.container,
+    .navbar-expand-lg>.container-fluid {
+        padding-right: 0;
+        padding-left: 0
+    }
+}
+@media (min-width:992px) {
+ 
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto
+    }
+}
+/*for the nav to be centered*/
+.ml-auto,
+.mx-auto {
+    margin-left: auto !important
+}
+
+@media (min-width:576px) {
+    .m-sm-0 {
+        margin: 0 !important
+    }
+    .mt-sm-0,
+    .my-sm-0 {
+        margin-top: 0 !important
+    }
+}
+/*******************Titels of the pages to be centered on mobile phones******************************/
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important
+}
+
